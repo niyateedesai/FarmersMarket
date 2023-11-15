@@ -13,11 +13,6 @@
         android:theme="@style/Theme.FarmersMarket"
         tools:targetApi="31" >
         <activity
-            android:name=".add_event"
-            android:exported="false"
-            android:label="@string/title_activity_add_event"
-            android:theme="@style/Theme.FarmersMarket" />
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name" >
