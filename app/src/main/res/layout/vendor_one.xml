@@ -61,7 +61,7 @@
             <ImageButton
                 android:id="@+id/twitter_btn"
                 android:background="@drawable/twitic"
-                android:text="twitter button"
+                android:text="twitter"
                 android:textSize="0sp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -75,7 +75,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="3dp"/>
             <ImageButton
-                android:id="@+id/gallery"
+                android:id="@+id/gallery_btn"
                 android:background="@drawable/gaic"
                 android:text="gallery button"
                 android:textSize="0sp"
