@@ -13,17 +13,17 @@
         tools:context=".MainActivity">
 
         <!-- Circular button in the top right corner -->
-        <Button
+        <ImageButton
             android:id="@+id/description"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:textSize="30sp"
-            android:background="@drawable/circlebutton"
-            android:text="i"
+            android:background="@drawable/iicon"
             android:textAllCaps="false"
             android:layout_gravity="end"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"/>
+            android:layout_marginEnd="16dp"
+            />
 
         <!-- Image in the center -->
         <ImageView
@@ -42,33 +42,43 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:padding="5dp">
-            <Button
+            <ImageButton
                 android:id="@+id/facebook_btn"
                 android:background="@drawable/fbic"
+                android:text="facebook button"
+                android:textSize="0sp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_margin="3dp"/>
-            <Button
+            <ImageButton
                 android:id="@+id/insta_btn"
                 android:background="@drawable/instic"
+                android:text="insta button"
+                android:textSize="0sp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_margin="3dp"/>
-            <Button
+            <ImageButton
                 android:id="@+id/twitter_btn"
                 android:background="@drawable/twitic"
+                android:text="twitter button"
+                android:textSize="0sp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_margin="3dp"/>
-            <Button
+            <ImageButton
                 android:id="@+id/email_btn"
                 android:background="@drawable/emic"
+                android:text="email button"
+                android:textSize="0sp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_margin="3dp"/>
-            <Button
+            <ImageButton
                 android:id="@+id/gallery"
                 android:background="@drawable/gaic"
+                android:text="gallery button"
+                android:textSize="0sp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_margin="3dp"/>

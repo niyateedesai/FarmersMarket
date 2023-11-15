@@ -29,34 +29,34 @@ public class VendorOne extends AppCompatActivity {
         Button descriptionBtn = (Button) findViewById(R.id.description);
 
 
-        PopupWindow popUp = new PopupWindow(this);
-        LinearLayout layout = new LinearLayout(this);
-        LinearLayout mainLayout = new LinearLayout(this);
-        TextView tv = new TextView(this);
-        Button but = new Button(this);
-        but.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (click) {
-                    popUp.showAtLocation(layout, Gravity.CENTER, 0, 0);
-                    popUp.update(50, 50, 300, 80);
-                    click = false;
-                } else {
-                    popUp.dismiss();
-                    click = true;
-                }
-            }
-        });
+//        PopupWindow popUp = new PopupWindow(this);
+//        LinearLayout layout = new LinearLayout(this);
+//        LinearLayout mainLayout = new LinearLayout(this);
+//        TextView tv = new TextView(this);
+//        Button but = new Button(this);
+//        but.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (click) {
+//                    popUp.showAtLocation(layout, Gravity.CENTER, 0, 0);
+//                    popUp.update(50, 50, 300, 80);
+//                    click = false;
+//                } else {
+//                    popUp.dismiss();
+//                    click = true;
+//                }
+//            }
+//        });
 
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT);
-        layout.setOrientation(LinearLayout.VERTICAL);
-        tv.setText("Hi this is a sample text for popup window");
-        layout.addView(tv, params);
-        popUp.setContentView(layout);
-        // popUp.showAtLocation(layout, Gravity.BOTTOM, 10, 10);
-        mainLayout.addView(but, params);
-        setContentView(mainLayout);
+//        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
+//                LinearLayout.LayoutParams.WRAP_CONTENT);
+//        layout.setOrientation(LinearLayout.VERTICAL);
+//        tv.setText("Hi this is a sample text for popup window");
+//        layout.addView(tv, params);
+//        popUp.setContentView(layout);
+//        // popUp.showAtLocation(layout, Gravity.BOTTOM, 10, 10);
+//        mainLayout.addView(but, params);
+//        setContentView(mainLayout);
 
         Spinner spinner_one = findViewById(R.id.spinner1);
         Spinner spinner_two = findViewById(R.id.spinner2);
